@@ -1,0 +1,4 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+"access_component","access.component","custom_pc_odoo_17_v5.model_component","base.group_user","1","1","1","1"
+"access_system","access.system","custom_pc_odoo_17_v5.model_system","base.group_user","1","1","1","1"
+"access_accessory","access.accessory","custom_pc_odoo_17_v5.model_accessory","base.group_user","1","1","1","1"

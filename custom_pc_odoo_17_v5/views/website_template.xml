@@ -1,0 +1,50 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Website layout template -->
+        <template id="custom_pc_layout" name="Custom PC Layout" inherit_id="website.layout">
+            <xpath expr="//body" position="inside">
+                <div id="custom_pc_builder" class="o_webclient_container"/>
+            </xpath>
+        </template>
+
+        <!-- Custom PC Builder Interface -->
+        <template id="custom_pc_builder_interface" name="Custom PC Builder Interface">
+            <div class="pc-builder-container">
+                <div class="pc-builder-sidebar">
+                    <div class="pc-builder-filters">
+                        <!-- Advanced filters for specifications, price ranges, and brands -->
+                    </div>
+                    <div class="pc-builder-components">
+                        <!-- Components: CPUs, GPUs, RAM, Motherboards, Storage Devices, Power Supplies, Cooling Systems, Cases -->
+                    </div>
+                    <div class="pc-builder-systems">
+                        <!-- Complete Systems: Pre-built Gaming PCs, Gaming Laptops -->
+                    </div>
+                    <div class="pc-builder-accessories">
+                        <!-- Accessories: Gaming Consoles, Monitors, Keyboards, Mice, Headsets, Controllers -->
+                    </div>
+                </div>
+                <div class="pc-builder-main">
+                    <!-- Drag-and-drop interface for component selection, with detailed information and imagery -->
+                </div>
+            </div>
+        </template>
+
+        <!-- Product Catalogue -->
+        <template id="product_catalogue" name="Product Catalogue">
+            <div class="product-catalogue-container">
+                <!-- Product listing with advanced filters -->
+            </div>
+        </template>
+
+        <!-- Customer Engagement -->
+        <template id="customer_engagement" name="Customer Engagement">
+            <div class="customer-engagement-container">
+                <!-- Reviews and Ratings, Community Features -->
+            </div>
+        </template>
+    </data>
+</odoo>
+```
